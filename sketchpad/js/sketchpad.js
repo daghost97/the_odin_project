@@ -11,4 +11,7 @@ for (i=0; i < 16; i++) {
   row += '</div>';
   $grid.append(row);
 }
+
+$('.grid').hover(function(){$(this).css('background-color','black')});
+
 });
